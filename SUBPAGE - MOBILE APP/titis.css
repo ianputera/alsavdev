@@ -1,0 +1,224 @@
+.footer-card {
+    padding: 20px;
+    background-color: #2B2B2B;
+}
+
+/* Card Footer */
+.footer {
+    height: 100%;
+    background-color: #2B2B2B;
+    padding: 80px;
+  }
+
+  .build {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .product {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  
+  .list-p {
+    width: 72px;
+  }
+  
+  div.list-p p {
+    margin-bottom: 6px;
+  }
+  
+  .foot-company {
+    margin-right: 14px;
+  }
+  
+  .company {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF; 
+  }
+  
+  .list-c {
+    width: 108px;
+  }
+  
+  div.list-c p {
+    margin-bottom: 6px;
+  }
+  
+  .foot-account {
+    margin-right: 18px;
+  }
+  
+  .list-a {
+    width: 102px;
+    margin-left: 24px;
+  }
+  
+  div.list-a p {
+    margin-bottom: 6px;
+  }
+  
+  .find-us {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 36px;
+  }
+  
+  .list-f {
+    margin-left: 36px;
+    width: 301px;
+  }
+  
+  div.list-f p {
+    margin-bottom: 6px;
+  }
+  
+  .location {
+    width: auto;
+    height: 92px;
+    border-radius: 10px;
+    margin-left: 50px;
+  }
+  
+div p a {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B2B2B2;
+}
+  
+ div p a:hover {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+  
+.f-footer {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B2B2B2;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        width: auto;
+        height: auto;
+        padding: 20px;
+      }
+    
+      .foot-logo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    
+    .account {
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+        margin-left: 0px;
+      }
+    
+      .build {
+        width: 100%;
+        height: auto;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 0px;
+      }
+    
+      .list-p {
+        margin: 0px 0px 16px 0px;
+      }
+    
+      div.list-p p {
+        margin: 0px 0px 6px 0px;
+      }
+    
+      .list-c {
+        margin: 0px 0px 16px 0px;
+      }
+    
+      div.list-c p {
+        margin: 0px 0px 6px 0px;
+      }
+    
+      .account {
+        margin-bottom: 16px;
+      }
+    
+      .list-a {
+        margin: 16px 0px 16px 0px;
+      }
+    
+      div.list-a p {
+        margin: 0px 0px 6px 0px;
+      }
+    
+      .find-us {
+        margin: 0px 0px 16px 0px;
+      }
+    
+      .list-f {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+      }
+    
+      .location {
+        margin: 0px;
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    
+}
+/* card footer end */
